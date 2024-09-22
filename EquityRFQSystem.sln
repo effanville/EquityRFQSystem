@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EquityRFQSystem", "src\EquityRFQSystem\EquityRFQSystem.csproj", "{6F7EA165-B535-45D2-9397-F7D67F735881}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EquityRFQSystem.Unit.Tests", "test\EquityRFQSystem.Unit.Tests\EquityRFQSystem.Unit.Tests.csproj", "{ABC6C933-5527-47D4-9D90-4CF5E47A5452}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Items", "Items", "{E406A61B-6F49-4CE0-9ECF-21F38FAD3B37}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EquityRFQSystem.Persistence", "src\EquityRFQSystem.Persistence\EquityRFQSystem.Persistence.csproj", "{531C3B67-DFC9-4679-8905-0B4A58BC96E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquityRFQSystem.RealTimeQuote", "src\EquityRFQSystem.RealTimeQuote\EquityRFQSystem.RealTimeQuote.csproj", "{6E93ED3F-88DF-4F85-9061-40F929C5392E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquityRFQSystem.Common", "src\EquityRFQSystem.Common\EquityRFQSystem.Common.csproj", "{BDE9B5BD-FD28-4442-BDEE-65C8F675EABA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F7EA165-B535-45D2-9397-F7D67F735881}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F7EA165-B535-45D2-9397-F7D67F735881}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F7EA165-B535-45D2-9397-F7D67F735881}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F7EA165-B535-45D2-9397-F7D67F735881}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABC6C933-5527-47D4-9D90-4CF5E47A5452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABC6C933-5527-47D4-9D90-4CF5E47A5452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABC6C933-5527-47D4-9D90-4CF5E47A5452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABC6C933-5527-47D4-9D90-4CF5E47A5452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{531C3B67-DFC9-4679-8905-0B4A58BC96E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{531C3B67-DFC9-4679-8905-0B4A58BC96E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{531C3B67-DFC9-4679-8905-0B4A58BC96E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{531C3B67-DFC9-4679-8905-0B4A58BC96E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E93ED3F-88DF-4F85-9061-40F929C5392E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E93ED3F-88DF-4F85-9061-40F929C5392E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E93ED3F-88DF-4F85-9061-40F929C5392E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E93ED3F-88DF-4F85-9061-40F929C5392E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDE9B5BD-FD28-4442-BDEE-65C8F675EABA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDE9B5BD-FD28-4442-BDEE-65C8F675EABA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDE9B5BD-FD28-4442-BDEE-65C8F675EABA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDE9B5BD-FD28-4442-BDEE-65C8F675EABA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8501361-E6F9-4DDA-90FF-20043897D3FF}
+	EndGlobalSection
+EndGlobal
